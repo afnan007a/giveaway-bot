@@ -15,7 +15,7 @@ async def on_ready():
 @client.command()
 @commands.has_role("bot tester")
 async def giveaway(ctx,mins:int,*,prize:str):
-    embed=discord.Embed(title="Giveaway!", description=f"prize",color=ctx.author.color)
+    embed=discord.Embed(title="Giveaway!", description=f"{prize}",color=ctx.author.color)
 
     end=datetime.datetime.utcnow()+datetime.timedelta(seconds=mins*60)
 
