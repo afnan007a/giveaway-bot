@@ -20,7 +20,7 @@ async def giveaway(ctx,mins:int,*,prize:str):
     end=datetime.datetime.utcnow()+datetime.timedelta(seconds=mins*60)
 
     embed.add_field(name="Ends At:",value=f"{end}UTC")
-    embed.set_footer(text="Ends {mins} minutes from now!")
+    embed.set_footer(text=f"Ends {mins} minutes from now!")
 
     my_msg=await ctx.send(embed=embed)
 
