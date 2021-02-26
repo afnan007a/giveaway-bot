@@ -38,4 +38,4 @@ async def giveaway(ctx,mins:int,*,prize:str):
     await ctx.send(f"Congratulations! {winner.mention} won {prize}!")
 
 
-client.run("ODEzNjkzMzI4NzA0NjY3Njg4.YDTA9w.zfo_H0c2LD2CaMM6zPPAQ2ZZCiA")
+client.run("YOUR TOKEN")
