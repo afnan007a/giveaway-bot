@@ -1,2 +1,2 @@
 # giveaway-bot
-a giveaway-bot coded in js
+a giveaway-bot coded in python
