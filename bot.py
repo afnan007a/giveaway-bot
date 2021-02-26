@@ -13,7 +13,7 @@ async def on_ready():
 	print("the bot is ready")
 
 @client.command()
-@commands.has_role("bot tester")
+@commands.has_role("Owner")
 async def giveaway(ctx,mins:int,*,prize:str):
     embed=discord.Embed(title="Giveaway!", description=f"{prize}",color=ctx.author.color)
 
